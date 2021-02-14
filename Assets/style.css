@@ -49,14 +49,28 @@ body {
 
 .Work a {
     position: relative;
-}
+    }
 
 .Work div {
     position: absolute;
+    display: flex;
+    display: inline;
     bottom: 20px;
     background-color: aquamarine;
     height: 50px;
     width: 70px;
+}
+
+img {
+    height: 300px;
+    width: 350px;
+    border: 3px solid black;
+}
+
+.headshot {
+    border-top: 300px;
+    height: 500px;
+    width: 100px;
 }
 
 footer {
@@ -78,7 +92,7 @@ footer h2 {
     margin: 0px 50px;
 }
 
-#contact-info {
+#Contact-Info {
     display: flex;
 }
 
