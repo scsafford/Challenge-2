@@ -8,6 +8,8 @@ body {
     background-color: #5d7d86;
 }
 
+/*Header/Nav Bar Style Starts*/
+
 .header {
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -42,6 +44,10 @@ body {
     color: white;
 }
 
+/*Header/Nav Bar Styling Ends */
+
+/*About Me Section Styling Starts*/
+
 .AboutMe {
     display: flex;
     margin-top: 30px;
@@ -70,6 +76,10 @@ section {
     font-size: 20px;
     margin-right: 100px;
 }
+
+/*About Me Section Styling Ends*/
+
+/*Work Project Styling Starts*/
 
 .Work h1 {
     font-size: 40px;
@@ -120,6 +130,9 @@ img {
     margin-left: 36.2%;
 }
  
+/*Work Project Styling Ends*/
+
+/*Headshot Near Top of Page Styling Starts*/
 
 .headshot {
     margin-top: 10px;
@@ -127,6 +140,10 @@ img {
     width: 200px;
     margin-left: 10px;
 }
+
+/*Headshot Styling Ends*/
+
+/*Footer Styling Starts*/
 
 footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -155,6 +172,8 @@ footer h2 {
     justify-content: space-around;
     align-items: center;
 }
+
+/*Footer Styling Ends*/
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
