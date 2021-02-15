@@ -56,6 +56,10 @@ body {
 
 .AboutMe h1 {
     font-size: 40px;
+    margin-left: 80px;
+    border-right: 4px solid black;
+    height: 200px;
+    
 }
 
 section {
@@ -64,6 +68,7 @@ section {
 
 .who {
     font-size: 20px;
+    margin-right: 100px;
 }
 
 .Work h1 {
@@ -71,7 +76,8 @@ section {
     margin-top: 40px;
     align-items: center;
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    
 
 }
 
@@ -111,7 +117,7 @@ img {
 .pics {
     width: 850px;
     right: 0px;
-    margin-left: 662px;
+    margin-left: 36.2%;
 }
  
 
