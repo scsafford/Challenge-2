@@ -5,13 +5,13 @@
 }
 
 body {
-    background-color: #93aacc;
+    background-color: #5d7d86;
 }
 
 .header {
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #36476b;
+    background-color: #000000;
     color: #ffffff;
 }
 
@@ -58,6 +58,10 @@ body {
     font-size: 40px;
 }
 
+section {
+    margin-bottom: 25px;
+}
+
 .who {
     font-size: 20px;
 }
@@ -67,6 +71,8 @@ body {
     margin-top: 40px;
     align-items: center;
     display: flex;
+    justify-content: left;
+
 }
 
 .Work a {
@@ -75,16 +81,20 @@ body {
 
 .Work {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    position: relative;
 }
 
-/*.label {
+.label {
     background-color: aquamarine;
     height: 70px;
     width: 50px;
     z-index: 2;
+    position: absolute;
+    bottom: 10px;
+    left:5px;
 
-}*/
+}
 
 img {
     height: 300px;
@@ -97,6 +107,12 @@ img {
     height: 500px;
     width: 850px; 
 }
+
+.pics {
+    width: 850px;
+    right: 0px;
+    margin-left: 662px;
+}
  
 
 .headshot {
@@ -108,10 +124,12 @@ img {
 
 footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
 }
 
 footer h2 {
     font-size: 40px;
+    color: white;
 }
 
 .contact {
@@ -123,6 +141,7 @@ footer h2 {
 
 .contact a {   
     margin: 0px 50px;
+    color: white;
 }
 
 #Contact-Info {
@@ -130,6 +149,26 @@ footer h2 {
     justify-content: space-around;
     align-items: center;
 }
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+    #scale {
+        width: 700px;
+        margin: 0 auto;
+    }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 575px) {
+
+    #scale {
+        width: 500px;
+        margin: 0 auto;
+    }
+  }
+
+
 
 
 
